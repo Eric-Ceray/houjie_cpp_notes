@@ -127,7 +127,7 @@ conj (const complex& x)
 	return complex (real (x), -imag (x));
 }
 
-#include <ostream.h>
+#include <iostream.h>
 ostream&
 operator << (ostream& os, const complex& x)
 {
